@@ -1,4 +1,4 @@
-import CardValidator from './CardValidator';
+import Popover from './Popover';
 
-const imageLoader = new CardValidator(document.querySelector('.cardvalidator'));
-imageLoader.addEvents();
+const popover = new Popover(document.querySelector('body'));
+popover.bindToDOM();
